@@ -1,0 +1,52 @@
+{
+    "api": {
+        "masgi": "https://masgimenz.my.id"
+    },
+    "switching": {
+        "remoteJid": true,
+        "antilink": true,
+        "antilinkyoutube": false,
+        "welcome": true
+    },
+    "info": {
+        "owner": {
+            "name": "Arifi Razzaq",
+            "number": [ "6281361057300" ],
+            "social": {
+                "instagram": "arifirazzaq2001",
+                "email": "vr.zaq1@gmail.com"
+            }
+        },
+        "bot": {
+            "name": "XBASE RAZZAQ BOT"
+        },
+        "source": {
+            "url": {
+                "group": {
+                    "whatsapp": [ "https://chat.whatsapp.com/tulis_id_group_mu" ]
+                }
+            },
+            "example": {
+                "url": {
+                    "whatsapp": "https://wa.me/",
+                    "instagram": "https://instagram.com/"
+                }
+            },
+            "image": {
+                "url": {
+                    "nopp": "https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png"
+                }
+            }
+        }
+    },
+    "costumeText": {
+        "welcome": {
+            "status": true,
+            "msg": "Welcome @user in group {title}"
+        },
+        "leave": {
+            "status": true,
+            "msg": "Good bye @user"
+        }
+    }
+}
