@@ -41,7 +41,7 @@ async function sessions(path) {
                     },
                 }));
             }
-            store?.bind(programRojak.ev);
+            store.bind(programRojak.ev);
             programRojak.ev.on('connection.update', async (update) => {
                 require('./servers/host/connection.js').newModule(update, sessions);
             });
