@@ -24,7 +24,7 @@ const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-const nyoutube = ('©BotolApps\nYoutube :\nhttps://youtube.com/BotolApps')  //ubah di config biar ngk emror
+const nyoutube = ('©BotolApps\nWeb :\nhttps://droidangga.com')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
 
@@ -609,7 +609,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                naze.sendMessage(m.chat, { image: { url: 'https://elearningindustry.com/wp-content/uploads/2021/01/bots-in-the-classroom.png' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://wa.me/6287891518799_\n\n*Atau Transfer via*\n\n\n_Terima kasih_` }, { quoted: m })
+                naze.sendMessage(m.chat, { image: { url: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl-2SsOa02LzITcuhHfdwivmqnAv2SVKIVhH7xTRlsXijWM2m6xBl19F1SMYUB_LIj9nxNOVI5haiRlBpeXwHbxpkj6WP7Ni4ODtgO70MkPtN8Gswe4dCm-eI_EHVtEh_N310jyGyb_yGdnkLFd7J_lxAaFva_TL8MxNS603a1xmXUPo6I4pMXPwg/s16000/IMG-20230128-WA0137.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://wa.me/6287891518799_\n\n*Atau via Transfer*\n\n\n_Terima kasih_` }, { quoted: m })
             }
             break
             case 'sc': {
